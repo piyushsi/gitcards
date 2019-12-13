@@ -13,6 +13,7 @@ input.addEventListener('keyup', (e) => {
                 let cardA = document.querySelector(".back1")
                 let name = document.createElement("a")
                 name.textContent = "userid not found"
+                cardA.innerHTML = ""
                 cardA.append(name)
             } else {
                 let cardA = document.querySelector(".back1")
@@ -49,6 +50,7 @@ input2.addEventListener('keyup', (e) => {
                 let cardB = document.querySelector(".back2")
                 let name = document.createElement("a")
                 name.textContent = "userid not found"
+                cardB.innerHTML = ""
                 cardB.append(name)
             } else {
                 let cardB = document.querySelector(".back2")
@@ -89,6 +91,7 @@ input3.addEventListener('keyup', (e) => {
                 let cardC = document.querySelector(".back3")
                 let name = document.createElement("a")
                 name.textContent = "userid not found"
+                cardC.innerHTML = ""
                 cardC.append(name)
             } else {
                 let cardC = document.querySelector(".back3")
@@ -130,6 +133,7 @@ input4.addEventListener('keyup', (e) => {
                 let cardD = document.querySelector(".back4")
                 let name = document.createElement("a")
                 name.textContent = "userid not found"
+                cardD.innerHTML = ""
                 cardD.append(name)
             } else {
                 let cardD = document.querySelector(".back4")
@@ -172,6 +176,7 @@ input5.addEventListener('keyup', (e) => {
                 let cardE = document.querySelector(".back5")
                 let name = document.createElement("a")
                 name.textContent = "userid not found"
+                cardE.innerHTML = ""
                 cardE.append(name)
             } else {
                 let cardE = document.querySelector(".back5")
