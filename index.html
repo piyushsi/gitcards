@@ -11,44 +11,46 @@
 </head>
 
 <body>
+    <form id="test-form">
     <input class="deal" type="button" value="Deal">
     <div class="container">
         <div class="parent">
             <input class="cbox cbox1" type="checkbox" />
             <label class="add" for="cbox">Add Userid</label>
-            <input class="message input" type="text" placeholder="Hit Enter to submit" />
+            <input name="form_field_1" class="message input" type="text" placeholder="Hit Enter to submit" />
         </div>
     </div>
     <div class="container">
         <div class="parent">
             <input class="cbox cbox2" type="checkbox" />
             <label class="add" for="cbox2">Add Userid</label>
-            <input class="message input2" type="text" placeholder="Hit Enter to submit" />
+            <input name="form_field_2" class="message input2" type="text" placeholder="Hit Enter to submit" />
         </div>
     </div>
     <div class="container">
         <div class="parent">
             <input class="cbox cbox3" type="checkbox" />
             <label class="add" for="cbox3">Add Userid</label>
-            <input class="message input3" type="text" placeholder="Hit Enter to submit" />
+            <input name="form_field_3" class="message input3" type="text" placeholder="Hit Enter to submit" />
         </div>
     </div>
     <div class="container">
         <div class="parent">
             <input class="cbox cbox4" type="checkbox" />
             <label class="add" for="cbox4">Add Userid</label>
-            <input class="message input4" type="text" placeholder="Hit Enter to submit" />
+            <input name="form_field_4" class="message input4" type="text" placeholder="Hit Enter to submit" />
         </div>
     </div>
     <div class="container">
         <div class="parent">
             <input class="cbox cbox5" type="checkbox" />
             <label class="add" for="cbox5">Add Userid</label>
-            <input class="message input5" type="text" placeholder="Hit Enter to submit" />
+            <input name="form_field_5" class="message input5" type="text" placeholder="Hit Enter to submit" />
         </div>
     </div>
 
-    <input class="deal battle" type="button" value="place">
+    <input id="submit-form" class="deal battle" type="button" value="place">
+</form>
     <div class="deck">
         <div class="card card1">
             <div class="face front front1"></div>
@@ -74,6 +76,8 @@
 </body>
 <script src='script.js'></script>
 <script src='main.js'></script>
+<script src="jquery.serialize-object.min.js"></script>
+<script src='request.js'></script>
 
 
 </html>
